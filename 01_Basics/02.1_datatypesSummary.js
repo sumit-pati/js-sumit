@@ -33,3 +33,30 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primative), Heap(Non-Premative)
+
+let myYoutubeName = "ShopUnboxRepete"
+
+let anotherName = myYoutubeName
+anotherName = "TheLaptopShop"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "userOne@google.com",
+    upi: "UserOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sumit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
